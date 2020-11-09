@@ -1,0 +1,20 @@
+@import "./utils/fonts.scss";
+@import "./utils/vars.scss";
+
+body {
+    background-color: peachpuff;
+}
+
+h1 {
+    color: purple;
+}
+
+.changed {
+    font-family: $montserratBold;
+    size: 2rem;
+}
+
+div {
+    size: 2rem;
+}
+
