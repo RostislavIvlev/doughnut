@@ -4,8 +4,12 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Test page
+        script
+          include ../../node_modules/jquery/dist/jquery.js
+          include ../doughnut.js
     body
-      h1 Test
-      img(src="../assets/images/webpack2.png")
-      div test2
-      .changed TEST 2
+      canvas#test
+
+
+      script.
+        init([130, 1, 65, 0])

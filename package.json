@@ -1,5 +1,5 @@
 {
-  "name": "FSDProject_2",
+  "name": "fsdproject_2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -37,5 +37,13 @@
   },
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RostislavIvlev/doughnut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RostislavIvlev/doughnut/issues"
+  },
+  "homepage": "https://github.com/RostislavIvlev/doughnut#readme"
 }
