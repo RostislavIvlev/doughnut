@@ -13,7 +13,7 @@ function init(data) {
         angle = [];
         position = [-0.5*Math.PI];
 
-        colors = ["black", "#6FCF97", "#BC9CFF", "red"];
+        colors = ["#FFE39C", "#6FCF97", "#BC9CFF", "#909090"];
 
     function buildDoughnut(data) {
         summ = (x, y) => x + y;
@@ -28,6 +28,7 @@ function init(data) {
 
         context.lineWidth = 4;
         position[4] = (-0.5*Math.PI);
+
         for (let i = 0; i < data.length; i++) {
             context.beginPath();
             context.strokeStyle = colors[i];
