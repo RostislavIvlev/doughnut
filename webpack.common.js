@@ -23,6 +23,7 @@ module.exports = {
         new webpack.ProvidePlugin({
             '$':          'jquery',
             '_':          'lodash',
+            'jQuery':     'jquery'
         }),
         new CopyPlugin({
             patterns: [

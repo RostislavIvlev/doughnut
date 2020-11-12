@@ -1,0 +1,28 @@
+.doughnutContainer {
+    display: flex;
+    flex-direction: row;
+
+    .doughnutWrapper {
+        position: relative;
+
+        &__score {
+            position: absolute;
+            top: 35px;
+            left: 28px;
+
+            width: 50px;
+            text-align: center;
+        }
+    }
+
+    .doughnutTranscript {
+        
+        &_color {
+
+        }
+
+        &_text {
+
+        }
+    }
+}
